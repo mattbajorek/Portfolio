@@ -236,26 +236,46 @@ li:nth-child(3) {
 }
 
 @media screen and (max-width: 980px) and (min-width: 769px) {
+    /* Index */
     .container1, .container2 {
 		width: 710px;
 	}
 	.about-me  {
 		width: 400px;
 	}
+	/* Portfolio */
+	.about-me > img, .image-relative > img, .banner {
+		width: 340px;
+	}
 	.about-me > img {
 		height: 340px;
-		width: 340px;
 		margin: 20px 0;
+	}
+	.image-relative > img {
+		height: 255px;
 	}
 }
 
 @media screen and (max-width: 768px) and (min-width: 641px) {
+    /* Index */
     .container1, .container2, .about-me, .connect-with-me  {
 		width: 700px;
+	}
+	/* Portfolio */
+	.about-me > img, .image-relative > img, .banner {
+		width: 300px;
+	}
+	.about-me > img {
+		height: 300px;
+		margin: 20px 0;
+	}
+	.image-relative > img {
+		height: 225px;
 	}
 }
 
 @media screen and (max-width: 640px) {
+	/* Index */
 	.container1  {
 		width: 100%;
 	}
@@ -283,6 +303,17 @@ li:nth-child(3) {
 	}
 	li {
 		padding: 0 72.5px;
+	}
+	/* Portfolio */
+	.about-me > img, .image-relative > img, .banner {
+		width: 540px;
+	}
+	.about-me > img {
+		height: 540px;
+		margin: 20px 0;
+	}
+	.image-relative > img {
+		height: 405px;
 	}
 }
 
