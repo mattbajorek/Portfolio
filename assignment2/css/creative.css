@@ -69,7 +69,16 @@ section {
 }
 
 aside {
-    padding: 50px 0;
+    padding: 100px 0;
+}
+
+@media(max-width:1199px) {
+    section {
+        padding: 50px 0;
+    }
+    aside {
+        padding: 50px 0;
+    }
 }
 
 .no-padding {
@@ -245,7 +254,7 @@ header .header-content .header-content-inner p {
     margin-top: 0;
 }
 
-.service-box {
+/*.service-box {
     margin: 50px auto 0;
     max-width: 400px;
 }
@@ -258,7 +267,7 @@ header .header-content .header-content-inner p {
 
 .service-box p {
     margin-bottom: 0;
-}
+}*/
 
 .portfolio-box {
     display: block;
@@ -320,9 +329,9 @@ header .header-content .header-content-inner p {
     }
 }
 
-.call-to-action h2 {
+/*.call-to-action h2 {
     margin: 0 auto 20px;
-}
+}*/
 
 .text-primary {
     color: #e68a00;
@@ -478,11 +487,6 @@ body {
 }
 
 /* Custom CSS */
-.profile-pic {
-    width: 400px;
-    height: 400px;
-}
-
 input[type=text], textarea {
     width: 100%;
     padding: 8px 10px;
@@ -523,6 +527,14 @@ input[type=text]:focus, textarea:focus, input[type=button]:focus {
     border-radius: 5%;
 }
 
-#myCarousel, .fa {
+#myCarousel {
     margin-bottom: 20px;
+}
+
+.fa {
+    margin: 20px 0;
+}
+
+.add-margin {
+    margin-top: 20px;
 }
