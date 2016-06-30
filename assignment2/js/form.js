@@ -32,6 +32,9 @@ $(document).on('ready', function() {
 				email: email,
 				userform: userform
 			});
+			$('#name').val('');
+			$('#email').val('');
+			$('#userform').val('');
 			showModal('THANKS!','I have received your information and will contact you shortly.','#e68a00');
 		} else {
 			showModal('ERROR!','Please enter a valid email','#f00');
