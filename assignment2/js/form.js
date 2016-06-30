@@ -35,7 +35,8 @@ $(document).on('ready', function() {
 			$('#name').val('');
 			$('#email').val('');
 			$('#userform').val('');
-			showModal('THANKS!','I have received your information and will contact you shortly.','#e68a00');
+			//showModal('THANKS!','I have received your information and will contact you shortly.','#e68a00');
+			showModal('ERROR!','Please enter a valid email','#f00');
 			// Relisten for submit button to be pressed
 			$('#submit').on('click', submission).removeClass('disabled');
 		} else {
